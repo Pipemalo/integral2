@@ -25,7 +25,7 @@ export class Home {
 
 
   bernoulli(){
-    //this.navCtrl.push(BernoulliPage);
+    this.navCtrl.push(BernoulliPage);
   }
 
   binomial(){
