@@ -4,14 +4,14 @@ import { Component } from '@angular/core';
 
 import { NavController } from 'ionic-angular';
 
-import { BernoulliPage } from '../bernoulli/bernoulli';
-import { BinomialPage } from '../binomial/binomial';
-import { ChiPage } from '../chi/chi';
-import { ExponencialPage } from '../exponencial/exponencial';
-import { HipergeometricaPage } from '../hipergeometrica/hipergeometrica';
-import { NormalPage } from '../normal/normal';
-import { PoissonPage } from '../poisson/poisson';
-import { TstudentPage } from '../tstudent/tstudent';
+//import { BernoulliPage } from '../bernoulli/bernoulli';
+//import { BinomialPage } from '../binomial/binomial';
+//import { ChiPage } from '../chi/chi';
+//import { ExponencialPage } from '../exponencial/exponencial';
+//import { HipergeometricaPage } from '../hipergeometrica/hipergeometrica';
+//import { NormalPage } from '../normal/normal';
+//import { PoissonPage } from '../poisson/poisson';
+//import { TstudentPage } from '../tstudent/tstudent';
 
 @Component({
   selector: 'page-home',
@@ -25,39 +25,39 @@ export class Home {
 
 
   bernoulli(){
-    this.navCtrl.push(BernoulliPage);
+    //this.navCtrl.push(BernoulliPage);
   }
 
   binomial(){
-    this.navCtrl.push(BinomialPage);
+    //this.navCtrl.push(BinomialPage);
   }
 
   poisson(){
-    this.navCtrl.push(PoissonPage);
+    //this.navCtrl.push(PoissonPage);
   }
 
   hipergeometrica(){
-    this.navCtrl.push(HipergeometricaPage);
+    //this.navCtrl.push(HipergeometricaPage);
   }
 
   exponencial(){
-    this.navCtrl.push(ExponencialPage);
+    //this.navCtrl.push(ExponencialPage);
   }
 
   normal(){
-    this.navCtrl.push(NormalPage);
+    //this.navCtrl.push(NormalPage);
   }
 
   creditos(){
-    this.navCtrl.push('CreditosPage');
+    //this.navCtrl.push('CreditosPage');
   }
 
   chi(){
-    this.navCtrl.push(ChiPage);
+    //this.navCtrl.push(ChiPage);
   }
 
   tstudent(){
-    this.navCtrl.push(TstudentPage);
+    //this.navCtrl.push(TstudentPage);
   }
 
 }
