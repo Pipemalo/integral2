@@ -1,18 +1,25 @@
-import { Directive } from '@angular/core';
+import { Directive, ElementRef, Input } from '@angular/core';
 
 /**
  * Generated class for the MathJaxDirective directive.
  *
- * See https://angular.io/api/core/Directive for more info on Angular
- * Directives.
+ * See https://angular.io/docs/ts/latest/api/core/index/DirectiveMetadata-class.html
+ * for more info on Angular Directives.
  */
 @Directive({
-  selector: '[math-jax]' // Attribute selector
+  selector: '[MathJax]' // Attribute selector
 })
 export class MathJaxDirective {
-
-  constructor() {
-    console.log('Hello MathJaxDirective Directive');
-  }
-
+    @Input('MathJax') MathJaxInput: string;
+    constructor(private el: ElementRef) {
+    }
+    ngOnChanges() {
+      console.log('>> ngOnChanges');
+      //let MathJax : any;
+       //this.el.nativeElement.style.backgroundColor = 'yellow';
+       this.el.nativeElement.innerHTML = this.MathJaxInput;
+       console.log(this.MathJaxInput);
+      eval('MathJax.Hub.Queue(["Typeset",MathJax.Hub, this.el.nativeElement])');
+      eval('MathJax.Hub.Queue(["Typeset",MathJax.Hub, this.el.nativeElement])');
+    }
 }
