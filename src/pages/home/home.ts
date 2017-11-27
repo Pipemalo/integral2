@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
 import { BernoulliPage } from '../bernoulli/bernoulli';
-//import { BinomialPage } from '../binomial/binomial';
+import { BinomialPage } from '../binomial/binomial';
 //import { ChiPage } from '../chi/chi';
 //import { ExponencialPage } from '../exponencial/exponencial';
 //import { HipergeometricaPage } from '../hipergeometrica/hipergeometrica';
@@ -29,7 +29,7 @@ export class Home {
   }
 
   binomial(){
-    //this.navCtrl.push(BinomialPage);
+    this.navCtrl.push(BinomialPage);
   }
 
   poisson(){
