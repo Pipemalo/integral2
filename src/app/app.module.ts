@@ -8,8 +8,8 @@ import { MyApp } from './app.component';
 
 import { Home } from '../pages/home/home';
 import { MathJaxDirective } from '../directives/math-jax/math-jax';
-//import { BernoulliPage } from '../pages/bernoulli/bernoulli';
-//import { BinomialPage } from '../pages/binomial/binomial';
+import { BernoulliPage } from '../pages/bernoulli/bernoulli';
+import { BinomialPage } from '../pages/binomial/binomial';
 //import { ChiPage } from '../pages/chi/chi';
 //import { ExponencialPage } from '../pages/exponencial/exponencial';
 //import { HipergeometricaPage } from '../pages/hipergeometrica/hipergeometrica';
@@ -21,8 +21,8 @@ import { MathJaxDirective } from '../directives/math-jax/math-jax';
   declarations: [
     MyApp,
     Home,
-    //BernoulliPage,
-    //BinomialPage,
+    BernoulliPage,
+    BinomialPage,
     //ChiPage,
     //ExponencialPage,
     //HipergeometricaPage,
@@ -39,8 +39,8 @@ import { MathJaxDirective } from '../directives/math-jax/math-jax';
   entryComponents: [
     MyApp,
     Home,
-    //BernoulliPage,
-    //BinomialPage,
+    BernoulliPage,
+    BinomialPage,
     //ChiPage,
     //ExponencialPage,
     //HipergeometricaPage,
