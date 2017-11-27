@@ -12,6 +12,7 @@ import { Home } from '../pages/home/home';
 //import { NormalPage } from '../pages/normal/normal';
 //import { PoissonPage } from '../pages/poisson/poisson';
 //import { TstudentPage } from '../pages/tstudent/tstudent';
+// hola profe
 
 
 @Component({
