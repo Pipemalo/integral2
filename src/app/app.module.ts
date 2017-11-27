@@ -7,7 +7,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { MyApp } from './app.component';
 
 import { Home } from '../pages/home/home';
-//import { MathJaxDirective } from '../directives/math-jax/math-jax';
+import { MathJaxDirective } from '../directives/math-jax/math-jax';
 //import { BernoulliPage } from '../pages/bernoulli/bernoulli';
 //import { BinomialPage } from '../pages/binomial/binomial';
 //import { ChiPage } from '../pages/chi/chi';
@@ -29,7 +29,7 @@ import { Home } from '../pages/home/home';
     //NormalPage,
     //PoissonPage,
     //TstudentPage,
-    //MathJaxDirective
+    MathJaxDirective
   ],
   imports: [
     BrowserModule,
