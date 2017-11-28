@@ -11,7 +11,7 @@ import { MathJaxDirective } from '../directives/math-jax/math-jax';
 import { BernoulliPage } from '../pages/bernoulli/bernoulli';
 import { BinomialPage } from '../pages/binomial/binomial';
 import { ChiPage } from '../pages/chi/chi';
-//import { ExponencialPage } from '../pages/exponencial/exponencial';
+import { ExponencialPage } from '../pages/exponencial/exponencial';
 //import { HipergeometricaPage } from '../pages/hipergeometrica/hipergeometrica';
 //import { NormalPage } from '../pages/normal/normal';
 //import { PoissonPage } from '../pages/poisson/poisson';
@@ -24,7 +24,7 @@ import { ChiPage } from '../pages/chi/chi';
     BernoulliPage,
     BinomialPage,
     ChiPage,
-    //ExponencialPage,
+    ExponencialPage,
     //HipergeometricaPage,
     //NormalPage,
     //PoissonPage,
@@ -42,7 +42,7 @@ import { ChiPage } from '../pages/chi/chi';
     BernoulliPage,
     BinomialPage,
     ChiPage,
-    //ExponencialPage,
+    ExponencialPage,
     //HipergeometricaPage,
     //NormalPage,
     //PoissonPage,

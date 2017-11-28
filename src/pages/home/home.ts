@@ -7,7 +7,7 @@ import { NavController } from 'ionic-angular';
 import { BernoulliPage } from '../bernoulli/bernoulli';
 import { BinomialPage } from '../binomial/binomial';
 import { ChiPage } from '../chi/chi';
-//import { ExponencialPage } from '../exponencial/exponencial';
+import { ExponencialPage } from '../exponencial/exponencial';
 //import { HipergeometricaPage } from '../hipergeometrica/hipergeometrica';
 //import { NormalPage } from '../normal/normal';
 //import { PoissonPage } from '../poisson/poisson';
@@ -41,7 +41,7 @@ export class Home {
   }
 
   exponencial(){
-    //this.navCtrl.push(ExponencialPage);
+    this.navCtrl.push(ExponencialPage);
   }
 
   normal(){
