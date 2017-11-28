@@ -10,7 +10,7 @@ import { ChiPage } from '../pages/chi/chi';
 import { ExponencialPage } from '../pages/exponencial/exponencial';
 import { HipergeometricaPage } from '../pages/hipergeometrica/hipergeometrica';
 import { NormalPage } from '../pages/normal/normal';
-//import { PoissonPage } from '../pages/poisson/poisson';
+import { PoissonPage } from '../pages/poisson/poisson';
 //import { TstudentPage } from '../pages/tstudent/tstudent';
 // hola profe
 
@@ -38,7 +38,7 @@ export class MyApp {
     this.pagesDiscretas = [
       { title: 'Bernoulli', component: BernoulliPage},
       { title: 'Binomial', component: BinomialPage},
-      //{ title: 'Poisson', component: PoissonPage},
+      { title: 'Poisson', component: PoissonPage},
       { title: 'Hipergeométrica', component: HipergeometricaPage}
     ];
 

@@ -10,7 +10,7 @@ import { ChiPage } from '../chi/chi';
 import { ExponencialPage } from '../exponencial/exponencial';
 import { HipergeometricaPage } from '../hipergeometrica/hipergeometrica';
 import { NormalPage } from '../normal/normal';
-//import { PoissonPage } from '../poisson/poisson';
+import { PoissonPage } from '../poisson/poisson';
 //import { TstudentPage } from '../tstudent/tstudent';
 
 @Component({
@@ -33,7 +33,7 @@ export class Home {
   }
 
   poisson(){
-    //this.navCtrl.push(PoissonPage);
+    this.navCtrl.push(PoissonPage);
   }
 
   hipergeometrica(){
