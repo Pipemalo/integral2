@@ -49,7 +49,7 @@ export class Home {
   }
 
   creditos(){
-    //this.navCtrl.push('CreditosPage');
+    this.navCtrl.push('CreditosPage');
   }
 
   chi(){
