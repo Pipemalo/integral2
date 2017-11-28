@@ -6,7 +6,7 @@ import { NavController } from 'ionic-angular';
 
 import { BernoulliPage } from '../bernoulli/bernoulli';
 import { BinomialPage } from '../binomial/binomial';
-//import { ChiPage } from '../chi/chi';
+import { ChiPage } from '../chi/chi';
 //import { ExponencialPage } from '../exponencial/exponencial';
 //import { HipergeometricaPage } from '../hipergeometrica/hipergeometrica';
 //import { NormalPage } from '../normal/normal';
@@ -53,7 +53,7 @@ export class Home {
   }
 
   chi(){
-    //this.navCtrl.push(ChiPage);
+    this.navCtrl.push(ChiPage);
   }
 
   tstudent(){
