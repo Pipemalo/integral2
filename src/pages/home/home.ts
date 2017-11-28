@@ -8,7 +8,7 @@ import { BernoulliPage } from '../bernoulli/bernoulli';
 import { BinomialPage } from '../binomial/binomial';
 import { ChiPage } from '../chi/chi';
 import { ExponencialPage } from '../exponencial/exponencial';
-//import { HipergeometricaPage } from '../hipergeometrica/hipergeometrica';
+import { HipergeometricaPage } from '../hipergeometrica/hipergeometrica';
 //import { NormalPage } from '../normal/normal';
 //import { PoissonPage } from '../poisson/poisson';
 //import { TstudentPage } from '../tstudent/tstudent';
@@ -37,7 +37,7 @@ export class Home {
   }
 
   hipergeometrica(){
-    //this.navCtrl.push(HipergeometricaPage);
+    this.navCtrl.push(HipergeometricaPage);
   }
 
   exponencial(){
