@@ -15,7 +15,7 @@ import { ExponencialPage } from '../pages/exponencial/exponencial';
 import { HipergeometricaPage } from '../pages/hipergeometrica/hipergeometrica';
 import { NormalPage } from '../pages/normal/normal';
 import { PoissonPage } from '../pages/poisson/poisson';
-//import { TstudentPage } from '../pages/tstudent/tstudent';
+import { TstudentPage } from '../pages/tstudent/tstudent';
 
 @NgModule({
   declarations: [
@@ -28,7 +28,7 @@ import { PoissonPage } from '../pages/poisson/poisson';
     HipergeometricaPage,
     NormalPage,
     PoissonPage,
-    //TstudentPage,
+    TstudentPage,
     MathJaxDirective
   ],
   imports: [
@@ -46,7 +46,7 @@ import { PoissonPage } from '../pages/poisson/poisson';
     HipergeometricaPage,
     NormalPage,
     PoissonPage,
-    //TstudentPage
+    TstudentPage
   ],
   providers: [
     StatusBar,

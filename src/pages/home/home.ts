@@ -11,7 +11,7 @@ import { ExponencialPage } from '../exponencial/exponencial';
 import { HipergeometricaPage } from '../hipergeometrica/hipergeometrica';
 import { NormalPage } from '../normal/normal';
 import { PoissonPage } from '../poisson/poisson';
-//import { TstudentPage } from '../tstudent/tstudent';
+import { TstudentPage } from '../tstudent/tstudent';
 
 @Component({
   selector: 'page-home',
@@ -57,7 +57,7 @@ export class Home {
   }
 
   tstudent(){
-    //this.navCtrl.push(TstudentPage);
+    this.navCtrl.push(TstudentPage);
   }
 
 }
