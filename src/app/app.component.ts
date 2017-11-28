@@ -9,7 +9,7 @@ import { BinomialPage } from '../pages/binomial/binomial';
 import { ChiPage } from '../pages/chi/chi';
 import { ExponencialPage } from '../pages/exponencial/exponencial';
 import { HipergeometricaPage } from '../pages/hipergeometrica/hipergeometrica';
-//import { NormalPage } from '../pages/normal/normal';
+import { NormalPage } from '../pages/normal/normal';
 //import { PoissonPage } from '../pages/poisson/poisson';
 //import { TstudentPage } from '../pages/tstudent/tstudent';
 // hola profe
@@ -43,7 +43,7 @@ export class MyApp {
     ];
 
     this.pagesContinuas = [
-      //{ title: 'Normal', component: NormalPage},
+      { title: 'Normal', component: NormalPage},
       { title: 'Exponencial', component: ExponencialPage},
       { title: 'Chi Cuadrado', component: ChiPage},
       //{ title: 'T-Student', component: TstudentPage}

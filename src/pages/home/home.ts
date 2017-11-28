@@ -9,7 +9,7 @@ import { BinomialPage } from '../binomial/binomial';
 import { ChiPage } from '../chi/chi';
 import { ExponencialPage } from '../exponencial/exponencial';
 import { HipergeometricaPage } from '../hipergeometrica/hipergeometrica';
-//import { NormalPage } from '../normal/normal';
+import { NormalPage } from '../normal/normal';
 //import { PoissonPage } from '../poisson/poisson';
 //import { TstudentPage } from '../tstudent/tstudent';
 
@@ -45,7 +45,7 @@ export class Home {
   }
 
   normal(){
-    //this.navCtrl.push(NormalPage);
+    this.navCtrl.push(NormalPage);
   }
 
   creditos(){
